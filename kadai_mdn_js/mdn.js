@@ -1,6 +1,10 @@
-const date = new Date(2024, 10 - 1, 12);
+var hiduke=new Date(); 
 
-const dateText = `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日`;
-console.log(dateText); 
 
+var year = hiduke.getFullYear();
+var month = hiduke.getMonth()+1;
+var week = hiduke.getDay();
+var day = hiduke.getDate();
+
+console.log(year+"年"+month+"月"+day+"日 ");
 
